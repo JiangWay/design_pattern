@@ -1,4 +1,4 @@
-package idv.wayne.designpattern.teashop;
+package idv.wayne.designpattern.teashop.decorator;
 
 public class TapiocaBalls extends CondimentDecorator{
 	
@@ -11,7 +11,7 @@ public class TapiocaBalls extends CondimentDecorator{
 
 	@Override
 	public String getDescription() {
-		return beverage.getDescription() + ", 珍珠";
+		return beverage.getDescription() + ", 珍珠(+5)";
 	}
 
 	@Override

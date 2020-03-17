@@ -1,4 +1,4 @@
-package idv.wayne.designpattern.teashop;
+package idv.wayne.designpattern.teashop.decorator;
 
 public abstract class CondimentDecorator extends Beverage{
 

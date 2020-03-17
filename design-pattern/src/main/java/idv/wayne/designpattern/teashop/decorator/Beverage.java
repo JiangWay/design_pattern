@@ -1,13 +1,13 @@
-package idv.wayne.designpattern.teashop;
+package idv.wayne.designpattern.teashop.decorator;
 
 public abstract class Beverage {
 
 	String description = "Unkonwn Beverage";
 	String size = "中杯";// 預設中杯
 
-	final static String SIZE_SMALL = "小杯";
-	final static String SIZE_MEDIUM = "中杯";
-	final static String SIZE_BIG = "大杯";
+	public final static String SIZE_SMALL = "小杯";
+	public final static String SIZE_MEDIUM = "中杯";
+	public final static String SIZE_BIG = "大杯";
 
 	public Beverage() {
 
@@ -32,5 +32,7 @@ public abstract class Beverage {
 		}
 	}
 
+
+	
 
 }

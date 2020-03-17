@@ -1,4 +1,4 @@
-package idv.wayne.designpattern.teashop;
+package idv.wayne.designpattern.teashop.decorator;
 
 public class GreenTea extends Beverage {
 
@@ -8,7 +8,7 @@ public class GreenTea extends Beverage {
 
 	public GreenTea(String size) {
 		super(size);
-		description = "Black Tea";
+		description = "Green Tea";
 	}
 
 	@Override

@@ -1,4 +1,4 @@
-package idv.wayne.designpattern.teashop;
+package idv.wayne.designpattern.teashop.decorator;
 
 public class CoconutJelly extends CondimentDecorator{
 	
